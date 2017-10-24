@@ -18,6 +18,7 @@ class DataTableResponseForm(forms.ModelForm):
     """
     class Meta:
         model = DataTableResponse
+        fields = '__all__'
 
 
 class MapLatLngLayerRequestForm(forms.ModelForm):
@@ -28,6 +29,7 @@ class MapLatLngLayerRequestForm(forms.ModelForm):
     """
     class Meta:
         model = MapLatLngLayerRequest
+        fields = '__all__'
 
 
 class DataTableUploadForm(forms.ModelForm):
@@ -74,6 +76,7 @@ class TableUploadAndJoinRequestForm(forms.ModelForm):
 
     class Meta:
         model = TableUploadAndJoinRequest
+        fields = '__all__'
 
 
 
@@ -84,6 +87,7 @@ class TableJoinRequestForm(forms.ModelForm):
     """
     class Meta:
         model = TableJoinRequest
+        fields = '__all__'
 
 
 
@@ -93,6 +97,7 @@ class TableJoinResultForm(forms.ModelForm):
     """
     class Meta:
         model = TableJoinResult
+        fields = '__all__'
 
 
     @staticmethod
